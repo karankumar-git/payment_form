@@ -1,0 +1,19 @@
+body{
+    background-color:aquamarine;
+}
+h1{
+    text-align: center;
+    color: rgb(26, 54, 144);
+    
+}
+
+    
+form{
+    background-color: rgba(0, 255, 255, 0.322);
+}
+form{
+    border-radius: 100px;
+    border-left-style: solid 10px ;
+    padding:1% 4% 2% 4%;
+    margin: 0% 10% 0% 10%;
+}

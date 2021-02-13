@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PAYMENT FORM</h1>
+    <form action="mailto:karankumarsonkaria@gmail.com">
+        <p><H4>USER DETAILS</H4></p>
+        <hr>
+        <p>NAME :<input type="text"></p>
+        <p>GENDER : 
+            Male<input type="radio" name="gender">
+            Female <input type="radio" name="gender">
+        </p>
+        <p>ADDRESS : <input type="textarea" name="address"></p>
+        <p>EMAIL : <input type="email"></p><br>
+        <h4>PERSONAL DETAILS</h4>
+        <hr>
+        <p>Card Type :
+            <select name="cardtype" id="">
+                <option value="debit">Debit Card</option>
+                <option value="credit">Credit Card</option>
+                <option value="None / Cash Payment">None / Cash</option>
+
+            </select>
+        </p>
+        <p>Card Number :
+            <input type="number">
+        </p>
+        <p>Expiry Date :
+            <input type="date">
+        </p>
+        <p>CVV :
+            <input type="number">
+        </p>
+        <p>Attach your AADHAR card:
+            <input type="file" name="aadhar" id="">
+        </p>
+        <center><p><input type="submit" value="SUBMIT"> <input type="reset"> </p></center>
+    </form>
+</body>
+</html>
